@@ -1,2 +1,1 @@
-# vue-works
-vue work store
+# vue-work

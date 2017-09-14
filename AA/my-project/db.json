@@ -1,0 +1,137 @@
+{
+  "treedom":[
+      {
+      "spice":"行业领域",
+      "type":0,
+      "data":[
+                {
+                  "current": "互联网",
+                  "expanded":true,
+                  "smaller":[
+                            { "id":"a1",
+                              "path":"list",
+                              "title":"SNS/社交网络"
+                            },
+                            { "id":"a2",
+                              "path":"detail",
+                              "title":"智能硬件"
+                            }
+                            ]          
+                }
+             ]
+      
+      },
+      {
+       "spice":"公司标签", 
+       "type":1,
+        "data":[
+                {
+                  "current": "aaa",
+                  "expanded":false,
+                  "smaller":[
+                                { "id":"a-1",
+                                  "path":"companya",
+                                  "title":"SNS/社交网络"
+                                },
+                                { "id":"a-2",
+                                  "path":"companyb",
+                                  "title":"智能硬件"
+                                }
+                            ]          
+                }
+             ] 
+      }
+  ],
+  "getNewsList": [
+        {
+          "id": 1,
+          "title": "新闻条目1新闻条目1新闻条目1新闻条目1",
+          "url": "http://starcraft.com"
+        },
+        {
+          "id": 2,
+          "title": "新闻条目2新闻条目2新闻条目2新闻条目2",
+          "url": "http://warcraft.com"
+        },
+        {
+          "id": 3,
+          "title": "新闻条3新闻条3新闻条3",
+          "url": "http://overwatch.com"
+        },
+        {
+          "id": 4,
+          "title": "新闻条4广告发布",
+          "url": "http://hearstone.com"
+        }
+  ],
+  "login": {
+    "username": "yudongdong",
+    "userId": 123123
+  },
+  "getPrice": {
+    "amount": 678
+  },
+  "createOrder": {
+    "orderId": "6djk979"
+  },
+  "getOrderList": {
+    "list": [
+      {
+        "orderId": "ddj123",
+        "product": "数据统计",
+        "version": "高级版",
+        "period": "1年",
+        "buyNum": 2,
+        "date": "2016-10-10",
+        "amount": "500元"
+      },
+      {
+        "orderId": "yuj583",
+        "product": "流量分析",
+        "version": "户外版",
+        "period": "3个月",
+        "buyNum": 1,
+        "date": "2016-5-2",
+        "amount": "2200元"
+      },
+      {
+        "orderId": "pmd201",
+        "product": "广告发布",
+        "version": "商铺版",
+        "period": "3年",
+        "buyNum": 12,
+        "date": "2016-8-3",
+        "amount": "7890元"
+      }
+    ]
+  },
+  "getlist":[
+    {
+      "id":"inter01",
+      "imgsrc":"https://img.kanzhun.com/images/logo/20161009/7a014a11d07fc161ab97a943ba52f84b.jpg",
+      "companytext":"安居客",
+      "saynum":"1",
+      "crash":"2000",
+      "view":"0",
+      "photonum":"2"
+    },
+    {
+      "id":"inter02",
+      "imgsrc":"https://img.kanzhun.com/images/logo/20161009/7a014a11d07fc161ab97a943ba52f84b.jpg",
+      "companytext":"饿了么",
+      "saynum":"1",
+      "crash":"200",
+      "view":"0",
+      "photonum":"2"
+    },
+    {
+      "id":"inter03",
+      "imgsrc":"https://img.kanzhun.com/images/logo/20161009/7a014a11d07fc161ab97a943ba52f84b.jpg",
+      "companytext":"蚂蚁销售",
+      "saynum":"1",
+      "crash":"5000",
+      "view":"40",
+      "photonum":"2"
+    }
+  ]
+}
