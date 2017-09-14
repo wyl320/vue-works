@@ -24,3 +24,11 @@ git 操作(1)
 > -b 表示第一次创建分支，他会把当前目录下的代码自动复制到你要创建的分支中去。
 
 此时在daily分支上修改代码，完成以后。需要提交代码到daily分支。
+
+此时daily分支代码为最新代码，master代码为老代码。(验证代码无误的情况下，需要把daily分支代码合并到master上去。)
+	
+	合并步骤
+	 1. git checkout master    //切换到master分支上
+	 2. git pull orgin master   //如果有多人开发，需要执行  
+	 2. git merge daily/1.0.0  //把daily分支代码合并到当前目录
+	 3. 验证master代码无误后，执行提交代码即可。(add/commit/push)
