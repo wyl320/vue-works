@@ -3,7 +3,6 @@ var fs = require('fs')
 var utils = require('./utils')
 var config = require('../config')
 var vueLoaderConfig = require('./vue-loader.conf')
-
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
@@ -11,6 +10,9 @@ function resolve (dir) {
 module.exports = {
   entry: {
     app: './src/main.js'
+  },
+  externals: {
+   "echarts": "echarts"
   },
   output: {
     path: config.build.assetsRoot,
