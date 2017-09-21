@@ -7,6 +7,8 @@ import List from '@/pages/list'
 import Detail from '@/pages/detail'
 import Companya from '@/pages/companya'
 import Companyb from '@/pages/companyb'
+import ScrollbarPage from '@/pages/ScrollbarPage'
+
 Vue.use(Router)
 
 export default new Router({
@@ -37,6 +39,11 @@ export default new Router({
           path:'companyb',
           name:'companyb',
           component:Companyb
+         },
+         {
+          path:'scrollbar',
+          name:'scrollbar',
+          component:ScrollbarPage
          }
       ]
     },
