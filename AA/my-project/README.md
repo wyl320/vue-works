@@ -28,7 +28,6 @@ npm test
 ```
 
 ```javascript
-
 option = {
     tooltip : {
         trigger: 'axis',
@@ -57,12 +56,19 @@ option = {
         show : false,
     },
     calculable : true,
+    grid: {x:30, y2:30, x2:3},
     xAxis : [
         {
             type : 'category',
             boundaryGap : false,
             axisTick:{
                show:false, 
+            },
+            splitLine:{
+             show:false
+            },
+            splitArea:{
+             show:false
             },
             axisLabel:{
               show:true,
@@ -92,6 +98,12 @@ option = {
             },
             axisTick:{
                show:false, 
+            },
+            splitLine:{
+             show:true
+            },
+            splitArea:{
+             show:false
             },
             axisLabel:{
               show:true,
