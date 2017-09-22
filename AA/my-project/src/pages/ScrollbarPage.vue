@@ -24,7 +24,7 @@
 </script>
 <style>
 	.scrollbar-main{
-		width: 600px;
+		width: 200px;
 		height: 400px;
 
 		margin: 0 auto;
