@@ -32,3 +32,16 @@ git 操作(1)
 	 2. git pull orgin master   //如果有多人开发，需要执行  
 	 2. git merge daily/1.0.0  //把daily分支代码合并到当前目录
 	 3. 验证master代码无误后，执行提交代码即可。(add/commit/push)
+	 
+#git 添加tag 
+git tag -a v3.5 -m "新增功能pdf导出，设备名称"
+git push origin --tags
+#git 删除tag
+git tag -d V1.2 
+
+ssh-keygen生成 sshkey
+$ cat /c/Users/admin/.ssh/id_rsa.pub 查看ssh命令
+
+git add src/index.ejs 单个添加某一个文件
+git commit -m ""
+git push
